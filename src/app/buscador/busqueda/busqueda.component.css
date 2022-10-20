@@ -1,0 +1,24 @@
+.boton{
+    border:none;
+    color: white;
+    background-color: rgb(59, 130, 244);
+    box-shadow: none; 
+    height: 40px;
+    padding: 0 15px 0 15px;
+}
+.boton:hover{
+    background-color: rgb(29, 81, 212);
+}
+.boton:focus{
+    background-color: green;
+}  
+.texto{
+    height: 40px;
+    border: 1px solid;
+    padding-bottom: 2px;
+    border-left: none;
+}
+.texto:focus{
+    border-color: rgb(59, 130, 244);
+    outline:0 none
+}
